@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 运行时数据（首次启动自动重建）
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+
+# 报告与临时产物
+reports/screenshots/
+reports/*.db
+reports/*.json
+Temp/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 依赖与构建（本项目零依赖，仅防误提交）
+node_modules/
+dist/
+build/
+
+# 沙箱探针残留文件（不纳入版本库）
+docs/测试中文.md
